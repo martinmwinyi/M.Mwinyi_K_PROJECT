@@ -1,69 +1,73 @@
-📖 Project Overview
+# Healthcare Data Analysis Project
 
-This project focuses on analyzing healthcare data to identify key risk factors associated with diseases such as heart disease or diabetes. Using Python and data analysis libraries, the project explores patient demographics, medical attributes, and health indicators to uncover meaningful insights.
+## Project Overview
+This project analyzes healthcare patient data to identify patterns, trends, and potential risk factors associated with disease outcomes. The analysis was performed using Python and data analytics libraries to clean, explore, and visualize the dataset.
 
-The goal is to demonstrate data cleaning, exploratory data analysis (EDA), and visualization skills that are essential in real-world data analytics roles.
+## Objectives
+- Analyze patient health indicators
+- Identify relationships between age, cholesterol, and disease risk
+- Perform exploratory data analysis (EDA)
+- Create visualizations to communicate insights
+- Practice real-world healthcare analytics workflows
 
-🎯 Objectives
-Clean and preprocess healthcare data
-Perform exploratory data analysis (EDA)
-Identify patterns and trends in patient health data
-Visualize relationships between variables
-Extract actionable insights from medical datasets
-📊 Dataset
+## Tools & Technologies
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Jupyter Notebook
+- Git & GitHub
+- VS Code
 
-This project uses publicly available healthcare datasets from Kaggle, such as:
+## Dataset Features
+The dataset includes:
+- Pregnancies	
+- Glucose	
+- BloodPressure
+- SkinThickness	
+- Insulin	
+- BMI	
+- DiabetesPedigreeFunctio
+- Age
+- Outcome
 
-Heart Disease Dataset
-Diabetes Dataset
+## Project Workflow
 
-Each dataset includes features such as:
+### 1. Data Cleaning
+- Removed missing values
+- Checked data types
+- Handled duplicates
+- Standardized column formatting
 
-Age
-Gender
-Blood pressure
-Cholesterol levels
-BMI
-Smoking status
-Disease outcome
-🛠️ Tools & Technologies
-Python 🐍
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Jupyter Notebook / Kaggle Notebook
-🔄 Project Workflow
-1. Data Loading
+### 2. Exploratory Data Analysis (EDA)
+- Age distribution analysis
+- Correlation analysis
+- Disease frequency analysis
+- Health factor comparisons
 
-Import dataset using Pandas and inspect initial structure.
+### 3. Data Visualization
+Created:
+- Histograms
+- Scatter plots
+- Line charts
+- Correlation heatmaps
 
-2. Data Cleaning
-Handle missing values
-Remove duplicates
-Fix incorrect data types
-3. Exploratory Data Analysis (EDA)
-Understand distributions of key variables
-Analyze correlations between health factors
-Study age and disease relationships
-4. Data Visualization
-Histograms for age distribution
-Scatter plots for Gl vs disease
-Line plots for risk trends
-5. Insights Extraction
+## Key Insights
+- Higher Glucose levels showed stronger association with disease risk
+- Certain age groups had increased health risks
+- Sleep patterns appeared correlated with patient health outcomes
 
-Identify key health risk patterns such as:
+## Sample Visualizion
+![alt text](<ScreenShot .png>)
 
-Age-related disease risk
-Impact of cholesterol levels
-Effect of lifestyle factors
-📈 Key Insights
-Patients above age 50 show higher disease risk
-Increased cholesterol levels correlate with higher heart disease probability
-Certain demographic groups are more vulnerable to chronic conditions
-💡 Skills Demonstrated
-Data Cleaning & Preprocessing
-Exploratory Data Analysis (EDA)
-Data Visualization
-Statistical Thinking
-Python Programming for Data Science
+## Future Improvements
+- Add machine learning prediction models
+- Build an interactive Power BI dashboard
+- Deploy project as a web application
+- Include advanced statistical analysis
+
+## How to Run the Project
+
+### Clone Repository
+```bash
+git clone <your-github-link>
