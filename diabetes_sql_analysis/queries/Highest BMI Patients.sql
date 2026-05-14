@@ -1,0 +1,4 @@
+SELECT Age, BMI, Glucose
+FROM diabetes
+ORDER BY BMI DESC
+LIMIT 10;
